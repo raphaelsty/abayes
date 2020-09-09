@@ -194,3 +194,7 @@ time: 35
 	 Most likely value: 52.063575
 	 Confidence interval: [-50.776582 ; 154.903732]
 ```
+
+#### License
+
+This project is free and open-source software licensed under the MIT license.
