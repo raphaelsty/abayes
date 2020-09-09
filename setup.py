@@ -10,7 +10,7 @@ setuptools.setup(
     version=f"{__version__}",
     author="Raphael Sourty",
     author_email="raphael.sourty@gmail.com",
-    description="abayes",
+    description="Autoregressive bayesian linear model",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/raphaelsty/abayes",
