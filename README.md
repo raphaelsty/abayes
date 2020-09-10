@@ -3,7 +3,7 @@
 </div>
 </br>
 
-This minimalist tool is dedicated to the bayesian linear regression implemented by **[Max Halford](https://github.com/MaxHalford)** in his blog post **[Bayesian linear regression for practitioners](https://maxhalford.github.io/blog/bayesian-linear-regression/)**. I created a variant of this model to obtain an online autoregressive bayesian linear regression.
+This minimalist tool is dedicated to the bayesian linear regression implemented by **[Max Halford](https://github.com/MaxHalford)** in his blog post **[Bayesian linear regression for practitioners](https://maxhalford.github.io/blog/bayesian-linear-regression/)**. I slightly modified the code to obtain an autoregressive version of the original model.
 
 **For the time being, the model will systematically assume that the residues follow a normal distribution. It will be necessary to wait for the next updates of the library to include new distributions.**
 
