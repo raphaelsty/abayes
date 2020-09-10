@@ -39,7 +39,7 @@ We initialise the auto-regressive model with a periodicity of 24. We will use th
 ```python3
 from abayes import linear
 
-model = linear.ARBayesLr(
+model = linear.AbayesLr(
     p     = 24,
     alpha = 0.3,
     beta  = 1.,
