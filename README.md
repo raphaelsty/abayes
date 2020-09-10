@@ -37,19 +37,19 @@ df.head()
 We initialise the auto-regressive model with a periodicity of 24. We will use the years n-1 and n-2 to predict my ice consumption in year n.
 
 ```python3
-from arbayes import model
+from abayes import linear
 
-model = model.ARBayesLr(
-    p     = 12,
+model = linear.ARBayesLr(
+    p     = 24,
     alpha = 0.3,
     beta  = 1.,
 )
 
 model.learn(df['y'].values)
 
-forecast = model.forecast(24)
+forecast = model.forecast(12)
 
-lower_bound, upper_bound = model.forecast_interval(24, alpha = 0.90)
+lower_bound, upper_bound = model.forecast_interval(12, alpha = 0.90)
 ```
 
 <details><summary>plot</summary>
