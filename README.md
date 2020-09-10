@@ -14,7 +14,7 @@ Its online autoregressive counterpart is a nice tool for the toolbox of programm
 #### Installation:
 
 ```
-pip install abayes
+pip install git+https://github.com/raphaelsty/abayes
 ```
 
 #### Example:
